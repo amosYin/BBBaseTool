@@ -28,15 +28,15 @@ TODO: use it do anything.
   s.source           = { :git => 'https://github.com/amosYin/BBBaseTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.3'
 
-  s.source_files = 'BBBaseTool/Classes/**/*'
+  s.source_files = 'BBBaseTool/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'BBBaseTool' => ['BBBaseTool/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'UIKit', 'MapKit'
+  s.dependency 'AFNetworking', '~> 2.3'
 end
