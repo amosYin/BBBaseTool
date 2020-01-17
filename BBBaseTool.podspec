@@ -30,13 +30,13 @@ TODO: use it do anything.
 
   spec.ios.deployment_target = '9.3'
 
-  spec.source_files = 'BBBaseTool/Classes/**/*.{h,m}'
+  spec.source_files = "Classes", "Classes/**/*.{h,m}"
   
   # spec.resource_bundles = {
   #   'BBBaseTool' => ['BBBaseTool/Assets/*.png']
   # }
 
-  spec.public_header_files = 'Pod/Classes/**/*.h'
+  # spec.public_header_files = 'Pod/Classes/**/*.h'
   spec.frameworks = 'UIKit', 'MapKit'
   spec.dependency 'AFNetworking', '~> 2.3'
 end
