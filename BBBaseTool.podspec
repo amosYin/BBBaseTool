@@ -6,7 +6,7 @@
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/pods.html
 #
 
-Pod::Spec.new do |s|
+Pod::Spec.new do |spec|
   spec.name             = 'BBBaseTool'
   spec.version          = '0.1.0'
   spec.summary          = 'A Tool For Componey of BBBaseTool.'
