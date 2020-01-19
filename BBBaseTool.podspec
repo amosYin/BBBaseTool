@@ -38,5 +38,5 @@ TODO: use it do anything.
 
   # spec.public_header_files = 'Pod/Classes/**/*.h'
   spec.frameworks = 'UIKit', 'MapKit'
-  spec.dependency 'AFNetworking', '~> 2.3'
+  # spec.dependency 'AFNetworking', '~> 2.3'
 end
